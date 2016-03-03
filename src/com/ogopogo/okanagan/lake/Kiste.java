@@ -11,5 +11,6 @@ public interface Kiste<T> {
    */
   abstract void put(T e);
   
- 
+  abstract void calculateGermknödelFette(T t);
+  
 }
