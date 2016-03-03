@@ -13,4 +13,9 @@ public interface Kiste<T> {
   
   abstract void calculateGermknödelFette(T t);
   
+  abstract void systemTrinkOut(T e);
+  
+  abstract void makeCleanAfterUser();
+  
+  
 }
